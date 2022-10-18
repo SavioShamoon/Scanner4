@@ -6,8 +6,8 @@ public class MyScanner
     public void run() {
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            String word = scanner.next(); 
-            System.out.println(word);
+            int input = scanner.nextInt();
+            System.out.println(input * 3); 
 
         }
     }
@@ -17,4 +17,3 @@ public class MyScanner
         myScanner.run();
     }
 }
-
